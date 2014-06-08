@@ -1,0 +1,1 @@
+rvpacker --action pack --project %CD% --project-type ace

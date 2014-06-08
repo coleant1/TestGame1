@@ -1,0 +1,212 @@
+---
+- 
+- !ruby/object:RPG::Actor
+  name: Uvalagos
+  face_index: 0
+  character_index: 0
+  initial_level: 3
+  face_name: knight_concept_face
+  class_id: 1
+  character_name: $knight_concept
+  id: 1
+  features: []
+  note: ''
+  equips:
+  - 101
+  - 2
+  - 4
+  - 102
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 20
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Sydney
+  face_index: 0
+  character_index: 0
+  initial_level: 3
+  face_name: mage_concept_face
+  class_id: 4
+  character_name: $mage_concept
+  id: 2
+  features: []
+  note: ''
+  equips:
+  - 102
+  - 0
+  - 0
+  - 105
+  - 101
+  nickname: ''
+  description: ''
+  max_level: 20
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: Urich
+  face_index: 0
+  character_index: 0
+  initial_level: 3
+  face_name: spellsword_concept_face
+  class_id: 2
+  character_name: $spellsword_concept
+  id: 3
+  features: []
+  note: ''
+  equips:
+  - 41
+  - 101
+  - 4
+  - 106
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 20
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 4
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 5
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 6
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 7
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 8
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 9
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: ''
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: ''
+  class_id: 1
+  character_name: ''
+  id: 10
+  features: []
+  note: ''
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  nickname: ''
+  description: ''
+  max_level: 99
+  icon_index: 0
