@@ -1,1 +1,36 @@
 ## Future sight on some fun experiments with the RPG Maker VX (Ace) system ##
+
+Now using rvpacker to manage the files (necessary for the git repo).
+
+rvpacker Installation instructions:
+
+ruby and the ruby dev kit are both required.
+	- For Windows: http://rubyinstaller.org/downloads/ 
+	- download the Ruby 1.9.3 RubyInstaller and the Development Kit compatable with 1.9.3
+	- the Ruby 1.9.3 should be a simple installation whereas the Development Kit requires some cmd line setup.
+	- For the Development Kit: Navigate to the folder where the self-extracting zip was saved. Run the self-extractor
+		and then open a cmd window at the folder location.
+	- run ruby dk.rb init
+	- run ruby dk.rb install
+
+Now installing rvpacker itself
+	- https://github.com/akesterson/rvpacker
+	- clone the repo
+	- open a cmd window with ruby and the ruby dev kit in the path
+	- run gem install rvpacker from the main rvpacker folder
+	- (Note his README.md includes these install instructions as well)
+
+
+rvpacker workflow impacts:
+
+Because we don't want to be committing the .rvdata2 files since binary files are awful to souce control, 
+	a simple workflow process is necessary for development.
+
+	- To begin work, simply run the pack.cmd file.  This should generate the Data folder.
+	- Make changes to the project, as typical in RPG Maker.
+	- Before attempting to commit, run the unpack.cmd file.  This will generate a Scripts and YAML folder 
+		corresponding to the changesets.
+	- Commit those .rb and .yaml files instead of the .rvdata2 files.
+
+	IMPORTANT NOTE: For windows, an Administrator cmd line is REQUIRED!!  Therefore, ensure the Administrator: text appears
+		at the beginning of the cmd window to ensure success.
