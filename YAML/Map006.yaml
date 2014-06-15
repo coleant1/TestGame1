@@ -176,14 +176,14 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [The writing on the ancient tablet is hard]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['to read, but it seems to say:']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['"Nosce te Ipsum"']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [mage_concept_face, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sydney: Feh, stupid gibberous.']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 2, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [knight_concept_face, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Uvalagos: It seems to be an ancient']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: [tongue. Perhaps there is wisdom here.]}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 3, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [mage_concept_face, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Sydney:  I''ve got your wisdom right -']}
-      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [Evil, 4, 0, 2]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 101, p: [spellsword_concept_face, 0, 0, 2]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 401, p: ['Urich:  Sid!']}
       - !ruby/object:RPG::EventCommand {i: 0, c: 123, p: [A, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}

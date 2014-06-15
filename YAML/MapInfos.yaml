@@ -1,29 +1,29 @@
 ---
 4: !ruby/object:RPG::MapInfo
-  scroll_x: 1796
+  scroll_x: 640
   name: FlameTempleOutside
-  expanded: false
+  expanded: true
   order: 42
-  scroll_y: 784
+  scroll_y: 2174
   parent_id: 9
 5: !ruby/object:RPG::MapInfo
-  scroll_x: 1416
+  scroll_x: 864
   name: FlameTempleOutsideInner
   expanded: false
   order: 43
-  scroll_y: 932
+  scroll_y: 520
   parent_id: 4
 6: !ruby/object:RPG::MapInfo
   scroll_x: 800
   name: GrandTemple
   expanded: false
   order: 3
-  scroll_y: 800
+  scroll_y: 1182
   parent_id: 7
 7: !ruby/object:RPG::MapInfo
   scroll_x: 1280
   name: TheVillage
-  expanded: false
+  expanded: true
   order: 2
   scroll_y: 816
   parent_id: 0
@@ -44,14 +44,14 @@
 9: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: FlameTemple
-  expanded: false
+  expanded: true
   order: 41
   scroll_y: 208
   parent_id: 0
 10: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: FlameTempleFloor1
-  expanded: false
+  expanded: true
   order: 44
   scroll_y: 208
   parent_id: 9
@@ -65,7 +65,7 @@
 12: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: FlameTempleFloor2
-  expanded: false
+  expanded: true
   order: 46
   scroll_y: 208
   parent_id: 9
@@ -79,7 +79,7 @@
 14: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: FlameTempleFloor3
-  expanded: false
+  expanded: true
   order: 48
   scroll_y: 208
   parent_id: 9
@@ -100,7 +100,7 @@
 17: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: CosmicTempleOutside
-  expanded: false
+  expanded: true
   order: 6
   scroll_y: 208
   parent_id: 16
@@ -485,7 +485,7 @@
 2: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: TheWildsNW
-  expanded: false
+  expanded: true
   order: 70
   scroll_y: 208
   parent_id: 1
