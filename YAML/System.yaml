@@ -48,7 +48,7 @@ test_battlers:
   - 42
   - 81
 _: 7829367
-edit_map_id: 26
+edit_map_id: 8
 battle_end_me: !ruby/object:RPG::ME
   name: Victory1
   pitch: 100

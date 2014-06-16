@@ -2859,7 +2859,7 @@
 - !ruby/object:RPG::Weapon
   description: A simple staff infused with the power of Flame.
   name: Flame Staff
-  icon_index: 0
+  icon_index: 528
   price: 0
   animation_id: 2
   note: ''
