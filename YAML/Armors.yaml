@@ -26,7 +26,7 @@
 - !ruby/object:RPG::Armor
   description: A simple wooden shield.
   name: Light Shield
-  icon_index: 0
+  icon_index: 505
   price: 5
   note: ''
   id: 2
@@ -72,7 +72,7 @@
 - !ruby/object:RPG::Armor
   description: The simplest of helms.
   name: Bucket
-  icon_index: 0
+  icon_index: 140
   price: 20
   note: ''
   id: 4

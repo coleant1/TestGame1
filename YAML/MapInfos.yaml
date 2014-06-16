@@ -1,17 +1,17 @@
 ---
 4: !ruby/object:RPG::MapInfo
-  scroll_x: 640
+  scroll_x: 1920
   name: FlameTempleOutside
   expanded: true
   order: 42
-  scroll_y: 2174
+  scroll_y: 1920
   parent_id: 9
 5: !ruby/object:RPG::MapInfo
-  scroll_x: 864
+  scroll_x: 566
   name: FlameTempleOutsideInner
   expanded: false
   order: 43
-  scroll_y: 520
+  scroll_y: 882
   parent_id: 4
 6: !ruby/object:RPG::MapInfo
   scroll_x: 800
