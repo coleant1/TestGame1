@@ -27,22 +27,17 @@
   remove_by_damage: false
   remove_by_restriction: false
 - !ruby/object:RPG::State
-  message2: ' is poisoned!'
-  name: Poison
-  priority: 65
-  icon_index: 18
-  message1: ' is poisoned!'
-  message4: ' is freed of poison!'
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
   restriction: 0
-  release_by_damage: false
   message3: ''
   note: ''
   id: 2
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 7
-    value: -0.1
+  features: []
   auto_removal_timing: 0
   min_turns: 1
   max_turns: 1
@@ -52,154 +47,139 @@
   remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
+  description: ''
 - !ruby/object:RPG::State
-  message2: ' is blinded!'
-  name: Blind
-  priority: 70
-  icon_index: 19
-  message1: ' becomes blind!'
-  message4: ' is no longer blinded!'
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
   restriction: 0
-  release_by_damage: false
   message3: ''
   note: ''
   id: 3
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 0
-    value: -0.6
-  auto_removal_timing: 1
-  min_turns: 3
-  max_turns: 5
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
+  description: ''
 - !ruby/object:RPG::State
-  message2: ' cannot cast Magic!'
-  name: Silence
-  priority: 75
-  icon_index: 20
-  message1: ' cannot cast Magic!'
-  message4: '''s Magic is no longer sealed!'
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
   restriction: 0
-  release_by_damage: false
   message3: ''
   note: ''
   id: 4
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 42
-    data_id: 2
-    value: 0.0
-  auto_removal_timing: 1
-  min_turns: 3
-  max_turns: 5
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
+  description: ''
 - !ruby/object:RPG::State
-  message2: ' is confused!'
-  name: Confusion
-  priority: 80
-  icon_index: 21
-  message1: ' becomes confused!'
-  message4: ' is no longer confused!'
-  restriction: 2
-  release_by_damage: false
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
   message3: ''
   note: ''
   id: 5
   features: []
-  auto_removal_timing: 1
-  min_turns: 2
-  max_turns: 4
-  chance_by_damage: 50
-  steps_to_remove: 100
-  remove_by_walking: false
-  remove_at_battle_end: true
-  remove_by_damage: true
-  remove_by_restriction: false
-- !ruby/object:RPG::State
-  message2: ' falls asleep!'
-  name: Sleep
-  priority: 85
-  icon_index: 22
-  message1: ' falls asleep!'
-  message4: ' wakes up!'
-  restriction: 4
-  release_by_damage: true
-  message3: ' is sleeping......'
-  note: ''
-  id: 6
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: -1.0
-  auto_removal_timing: 1
-  min_turns: 3
-  max_turns: 5
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
-  remove_by_damage: true
-  remove_by_restriction: false
-- !ruby/object:RPG::State
-  message2: ' is paralyzed!'
-  name: Paralysis
-  priority: 90
-  icon_index: 23
-  message1: ' becomes paralyzed!'
-  message4: ' is no longer paralyzed!'
-  restriction: 4
-  release_by_damage: false
-  message3: ' is unable to move!'
-  note: ''
-  id: 7
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: -1.0
-  auto_removal_timing: 1
-  min_turns: 4
-  max_turns: 6
-  chance_by_damage: 100
-  steps_to_remove: 100
-  remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
+  description: ''
 - !ruby/object:RPG::State
-  message2: ' loses balance!'
-  name: Stun
-  priority: 60
-  icon_index: 24
-  message1: ' loses balance!'
-  message4: ' regains balance!'
-  restriction: 4
-  release_by_damage: false
-  message3: ' hasn''t regained balance......'
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 6
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 7
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
   note: ''
   id: 8
   features: []
-  auto_removal_timing: 2
+  auto_removal_timing: 0
   min_turns: 1
-  max_turns: 2
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
+  description: ''
 - !ruby/object:RPG::State
   message2: ''
   name: Guard
@@ -228,8 +208,8 @@
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Immortal
-  priority: 0
+  name: ''
+  priority: 50
   icon_index: 0
   message1: ''
   message4: ''
@@ -237,25 +217,21 @@
   message3: ''
   note: ''
   id: 10
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 14
-    data_id: 1
-    value: 0.0
+  features: []
   auto_removal_timing: 0
   min_turns: 1
   max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Cover
-  priority: 0
+  name: ''
+  priority: 50
   icon_index: 0
   message1: ''
   message4: ''
@@ -263,404 +239,300 @@
   message3: ''
   note: ''
   id: 11
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 62
-    data_id: 2
-    value: 0.0
-  auto_removal_timing: 2
+  features: []
+  auto_removal_timing: 0
   min_turns: 1
   max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
-  remove_by_restriction: true
+  remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Provoke
+  name: ''
   priority: 50
-  icon_index: 25
+  icon_index: 0
   message1: ''
   message4: ''
   restriction: 0
   message3: ''
   note: ''
   id: 12
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 23
-    data_id: 0
-    value: 10.0
-  auto_removal_timing: 2
-  min_turns: 5
-  max_turns: 5
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Hide
+  name: ''
   priority: 50
-  icon_index: 28
+  icon_index: 0
   message1: ''
   message4: ''
   restriction: 0
   message3: ''
   note: ''
   id: 13
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 23
-    data_id: 0
-    value: 0.1
-  auto_removal_timing: 2
-  min_turns: 5
-  max_turns: 5
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
-  remove_by_restriction: true
+  remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: HP Regen
+  name: ''
   priority: 50
-  icon_index: 26
+  icon_index: 0
   message1: ''
   message4: ''
   restriction: 0
   message3: ''
   note: ''
   id: 14
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 7
-    value: 0.1
-  auto_removal_timing: 2
-  min_turns: 4
-  max_turns: 4
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: MP Regen
+  name: ''
   priority: 50
-  icon_index: 26
+  icon_index: 0
   message1: ''
   message4: ''
   restriction: 0
   message3: ''
   note: ''
   id: 15
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 8
-    value: 0.05
-  auto_removal_timing: 2
-  min_turns: 4
-  max_turns: 4
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: TP Regen
+  name: ''
   priority: 50
-  icon_index: 26
+  icon_index: 0
   message1: ''
   message4: ''
   restriction: 0
   message3: ''
   note: ''
   id: 16
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 9
-    value: 0.1
-  auto_removal_timing: 2
-  min_turns: 4
-  max_turns: 4
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Ironbody
+  name: ''
   priority: 50
-  icon_index: 29
+  icon_index: 0
   message1: ''
   message4: ''
   restriction: 0
   message3: ''
   note: ''
   id: 17
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 23
-    data_id: 6
-    value: 0.1
-  auto_removal_timing: 2
-  min_turns: 3
-  max_turns: 3
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
-  remove_by_restriction: true
+  remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Counterattack
+  name: ''
   priority: 50
-  icon_index: 27
+  icon_index: 0
   message1: ''
   message4: ''
   restriction: 0
   message3: ''
   note: ''
   id: 18
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 6
-    value: 1.0
-  auto_removal_timing: 2
-  min_turns: 3
-  max_turns: 3
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
-  remove_by_restriction: true
+  remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Magic Evade
+  name: ''
   priority: 50
-  icon_index: 29
+  icon_index: 0
   message1: ''
   message4: ''
   restriction: 0
   message3: ''
   note: ''
   id: 19
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 4
-    value: 1.0
-  auto_removal_timing: 2
-  min_turns: 3
-  max_turns: 3
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Magic Reflect
+  name: ''
   priority: 50
-  icon_index: 31
+  icon_index: 0
   message1: ''
   message4: ''
   restriction: 0
   message3: ''
   note: ''
   id: 20
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 5
-    value: 1.0
-  auto_removal_timing: 2
+  features: []
+  auto_removal_timing: 0
   min_turns: 1
   max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
-  remove_by_damage: false
-  remove_by_restriction: false
-  description: ''
-- !ruby/object:RPG::State
-  message2: ' acquires the power of fire!'
-  name: Fire Force
-  priority: 50
-  icon_index: 104
-  message1: ' acquires the power of fire!'
-  message4: ''
-  restriction: 0
-  message3: ''
-  note: ''
-  id: 21
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 31
-    data_id: 3
-    value: 1.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 3
-    value: 0.5
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 21
-    data_id: 2
-    value: 1.1
-  auto_removal_timing: 2
-  min_turns: 5
-  max_turns: 5
-  chance_by_damage: 100
-  steps_to_remove: 100
-  remove_by_walking: false
-  remove_at_battle_end: true
-  remove_by_damage: false
-  remove_by_restriction: false
-  description: ''
-- !ruby/object:RPG::State
-  message2: ' acquires the power of ice!'
-  name: Ice Force
-  priority: 50
-  icon_index: 105
-  message1: ' acquires the power of ice!'
-  message4: ''
-  restriction: 0
-  message3: ''
-  note: ''
-  id: 22
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 31
-    data_id: 4
-    value: 1.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 4
-    value: 0.5
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 21
-    data_id: 2
-    value: 1.1
-  auto_removal_timing: 2
-  min_turns: 5
-  max_turns: 5
-  chance_by_damage: 100
-  steps_to_remove: 100
-  remove_by_walking: false
-  remove_at_battle_end: true
-  remove_by_damage: false
-  remove_by_restriction: false
-  description: ''
-- !ruby/object:RPG::State
-  message2: ' acquires the power of thunder!'
-  name: Thunder Force
-  priority: 50
-  icon_index: 106
-  message1: ' acquires the power of thunder!'
-  message4: ''
-  restriction: 0
-  message3: ''
-  note: ''
-  id: 23
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 31
-    data_id: 5
-    value: 1.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 5
-    value: 0.5
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 21
-    data_id: 2
-    value: 1.1
-  auto_removal_timing: 2
-  min_turns: 5
-  max_turns: 5
-  chance_by_damage: 100
-  steps_to_remove: 100
-  remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
   message2: ''
-  name: Ailment Guard
+  name: ''
   priority: 50
-  icon_index: 29
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 21
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 22
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 23
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
   message1: ''
   message4: ''
   restriction: 0
   message3: ''
   note: ''
   id: 24
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 13
-    data_id: 2
-    value: 0.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 13
-    data_id: 3
-    value: 0.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 13
-    data_id: 4
-    value: 0.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 13
-    data_id: 5
-    value: 0.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 13
-    data_id: 6
-    value: 0.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 13
-    data_id: 7
-    value: 0.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 13
-    data_id: 8
-    value: 0.0
-  auto_removal_timing: 2
-  min_turns: 5
-  max_turns: 5
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: true
+  remove_at_battle_end: false
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
@@ -698,25 +570,25 @@
   message1: ' has been burned!'
   message4: ' is no longer burned!'
   restriction: 0
-  message3: ' is still burned!'
+  message3: ''
   note: ''
   id: 26
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 21
     data_id: 6
-    value: 0.9
+    value: 0.8
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
-    value: -0.1
+    value: -0.2
   auto_removal_timing: 2
   min_turns: 3
   max_turns: 5
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: false
+  remove_at_battle_end: true
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
@@ -747,7 +619,7 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ''
+  message2: is filled with the void.
   name: Emptiness
   priority: 50
   icon_index: 111
@@ -760,12 +632,12 @@
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 21
-    data_id: 7
-    value: 0.9
+    data_id: 3
+    value: 0.8
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 0
-    value: -0.1
+    value: -0.2
   auto_removal_timing: 2
   min_turns: 2
   max_turns: 3
@@ -2857,46 +2729,62 @@
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ''
-  name: Nether
+  message2: ' is cloaked in darkness!'
+  name: Dark Cloak
   priority: 50
-  icon_index: 0
-  message1: ''
-  message4: ''
+  icon_index: 171
+  message1: ' is cloaked in darkness!'
+  message4: ' is no longer cloaked in darkness.'
   restriction: 0
   message3: ''
   note: ''
   id: 121
-  features: []
-  auto_removal_timing: 0
-  min_turns: 1
-  max_turns: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 9
+    value: -0.2
+  auto_removal_timing: 2
+  min_turns: 3
+  max_turns: 5
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: false
+  remove_at_battle_end: true
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
 - !ruby/object:RPG::State
-  message2: ''
-  name: ''
+  message2: '''s weapon is endarkened.'
+  name: Nether Blade
   priority: 50
-  icon_index: 0
-  message1: ''
-  message4: ''
+  icon_index: 393
+  message1: '''s weapon is endarkened.'
+  message4: '''s weapon reappears.'
   restriction: 0
   message3: ''
   note: ''
   id: 122
-  features: []
-  auto_removal_timing: 0
-  min_turns: 1
-  max_turns: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 32
+    data_id: 28
+    value: 0.5
+  auto_removal_timing: 1
+  min_turns: 2
+  max_turns: 3
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: false
+  remove_at_battle_end: true
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
@@ -4621,6 +4509,1766 @@
   message3: ''
   note: ''
   id: 200
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 201
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 202
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 203
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 204
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 205
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 206
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 207
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 208
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 209
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 210
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 211
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 212
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 213
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 214
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 215
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 216
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 217
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 218
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 219
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 220
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 221
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 222
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 223
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 224
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 225
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 226
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 227
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 228
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 229
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 230
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 231
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 232
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 233
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 234
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 235
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 236
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 237
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 238
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 239
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 240
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 241
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 242
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 243
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 244
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 245
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 246
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 247
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 248
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 249
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 250
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 251
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 252
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 253
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 254
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 255
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 256
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 257
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 258
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 259
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 260
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 261
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 262
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 263
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 264
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 265
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 266
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 267
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 268
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 269
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 270
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 271
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 272
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 273
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 274
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 275
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 276
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 277
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 278
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 279
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 280
   features: []
   auto_removal_timing: 0
   min_turns: 1

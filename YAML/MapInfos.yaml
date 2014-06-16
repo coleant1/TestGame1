@@ -1,17 +1,17 @@
 ---
 4: !ruby/object:RPG::MapInfo
-  scroll_x: 1796
+  scroll_x: 1064
   name: FlameTempleOutside
   expanded: false
   order: 42
-  scroll_y: 784
+  scroll_y: 2088
   parent_id: 9
 5: !ruby/object:RPG::MapInfo
-  scroll_x: 1416
+  scroll_x: 1064
   name: FlameTempleOutsideInner
   expanded: false
   order: 43
-  scroll_y: 932
+  scroll_y: 610
   parent_id: 4
 6: !ruby/object:RPG::MapInfo
   scroll_x: 800
@@ -44,7 +44,7 @@
 9: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: FlameTemple
-  expanded: false
+  expanded: true
   order: 41
   scroll_y: 208
   parent_id: 0
@@ -156,23 +156,23 @@
 25: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: NetherTemple
-  expanded: false
+  expanded: true
   order: 14
   scroll_y: 208
   parent_id: 0
 26: !ruby/object:RPG::MapInfo
-  scroll_x: 272
+  scroll_x: 1920
   name: NetherTempleOutside
-  expanded: false
+  expanded: true
   order: 15
-  scroll_y: 208
+  scroll_y: 1256
   parent_id: 25
 27: !ruby/object:RPG::MapInfo
-  scroll_x: 272
+  scroll_x: 1920
   name: NetherTempleOutsideInner
   expanded: false
   order: 16
-  scroll_y: 208
+  scroll_y: 1256
   parent_id: 26
 28: !ruby/object:RPG::MapInfo
   scroll_x: 272

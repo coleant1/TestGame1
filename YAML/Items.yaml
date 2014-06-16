@@ -1071,13 +1071,13 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: ''
-  name: Nether
-  consumable: true
-  occasion: 0
+  description: A small fragment of pure Nether.
+  name: Nether Fragment
+  consumable: false
+  occasion: 3
   icon_index: 0
   price: 0
-  scope: 7
+  scope: 0
   animation_id: 0
   note: ''
   speed: 0
@@ -1096,13 +1096,13 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: ''
-  name: ''
-  consumable: true
-  occasion: 0
+  description: A larger fragment of pure Nether.
+  name: Nether Half
+  consumable: false
+  occasion: 3
   icon_index: 0
   price: 0
-  scope: 7
+  scope: 0
   animation_id: 0
   note: ''
   speed: 0
@@ -1121,13 +1121,13 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: ''
-  name: ''
-  consumable: true
-  occasion: 0
+  description: A large piece of pure Nether.
+  name: Nether Fond
+  consumable: false
+  occasion: 3
   icon_index: 0
   price: 0
-  scope: 7
+  scope: 0
   animation_id: 0
   note: ''
   speed: 0
@@ -1146,13 +1146,13 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: ''
-  name: ''
-  consumable: true
-  occasion: 0
+  description: A sphere of pure Nether, radiating energy.
+  name: Nether Cherished
+  consumable: false
+  occasion: 3
   icon_index: 0
   price: 0
-  scope: 7
+  scope: 0
   animation_id: 0
   note: ''
   speed: 0

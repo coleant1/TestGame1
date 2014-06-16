@@ -3054,7 +3054,7 @@ parallax_loop_x: false
 disable_dashing: false
 parallax_sy: 0
 display_name: ''
-specify_battleback: false
+specify_battleback: true
 note: ''
-battleback1_name: ''
-battleback2_name: ''
+battleback1_name: LavaCave
+battleback2_name: LavaCave

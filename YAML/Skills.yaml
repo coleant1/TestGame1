@@ -316,11 +316,11 @@
   success_rate: 100
   hit_type: 0
   stype_id: 4
-  tp_cost: 10
+  tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
-  tp_gain: 0
+  tp_gain: 10
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
@@ -1251,14 +1251,14 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
+  description: "The caster strikes out at his enemies with \r\nthe power of the Nether."
   name: Enveloping Darkness
   occasion: 1
   icon_index: 0
   message1: ' casts Enveloping Darkness!'
   scope: 1
   animation_id: 51
-  note: ''
+  note: Nether Tier 1
   mp_cost: 13
   speed: 0
   id: 42
@@ -1310,7 +1310,7 @@
     variance: 10
     critical: false
   success_rate: 100
-  hit_type: 0
+  hit_type: 1
   stype_id: 1
   tp_cost: 15
   required_wtype_id1: 0
@@ -1319,28 +1319,33 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
-  occasion: 0
+  description: "A beam of Nether that rakes across the\r\nbattlefield, striking the enemy."
+  name: Dark Draw
+  occasion: 1
   icon_index: 0
-  message1: ''
-  scope: 1
-  animation_id: 0
+  message1: ' casts Dark Beam!'
+  scope: 6
+  animation_id: 90
   note: ''
-  mp_cost: 0
+  mp_cost: 8
   speed: 0
   id: 44
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 28
+    value1: 0.2
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
+    type: 5
+    element_id: 9
+    formula: (a.mat * 1) * ( 1 / ( 2 ** ( b.mdf / 100 ) ) )
+    variance: 30
     critical: false
   success_rate: 100
-  hit_type: 0
-  stype_id: 1
+  hit_type: 2
+  stype_id: 2
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1348,19 +1353,24 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
-  occasion: 0
+  description: "The target is wrapped in Nether, keeping\r\nhimself hidden in the dark."
+  name: Dark Cloak
+  occasion: 1
   icon_index: 0
   message1: ''
-  scope: 1
+  scope: 7
   animation_id: 0
   note: ''
-  mp_cost: 0
+  mp_cost: 8
   speed: 0
   id: 45
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 121
+    value1: 1.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -1368,8 +1378,8 @@
     variance: 20
     critical: false
   success_rate: 100
-  hit_type: 0
-  stype_id: 1
+  hit_type: 2
+  stype_id: 2
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -1377,19 +1387,24 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
+  description: You wreath your blade in the power of Nether.
+  name: Nether Weapon
   occasion: 0
   icon_index: 0
-  message1: ''
-  scope: 1
+  message1: ' uses Nether Weapon!'
+  scope: 11
   animation_id: 0
-  note: ''
-  mp_cost: 0
+  note: Flame Tier 0
+  mp_cost: 1
   speed: 0
   id: 46
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 33
+    value1: 1.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -1399,26 +1414,31 @@
   success_rate: 100
   hit_type: 0
   stype_id: 1
-  tp_cost: 0
+  tp_cost: 5
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
+  description: You wreath your body in the power of Nether.
+  name: Nether Body
   occasion: 0
   icon_index: 0
-  message1: ''
-  scope: 1
+  message1: ' uses Nether Body!'
+  scope: 11
   animation_id: 0
-  note: ''
-  mp_cost: 0
+  note: Flame Tier 0
+  mp_cost: 1
   speed: 0
   id: 47
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 34
+    value1: 1.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -1428,15 +1448,15 @@
   success_rate: 100
   hit_type: 0
   stype_id: 1
-  tp_cost: 0
+  tp_cost: 5
   required_wtype_id1: 0
   required_wtype_id2: 0
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
+  description: "The user coats their blade in Nether. This\r\ncan empty an enemy, or cause death."
+  name: Nether Blade
   occasion: 0
   icon_index: 0
   message1: ''
@@ -1447,7 +1467,12 @@
   speed: 0
   id: 48
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 122
+    value1: 1.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -1464,28 +1489,38 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
+  description: "You draw upon the deep void of the Nether\r\nto lash out at your foes."
+  name: Empty Night
   occasion: 0
   icon_index: 0
-  message1: ''
-  scope: 1
-  animation_id: 0
+  message1: ' casts Empty Night!'
+  scope: 2
+  animation_id: 78
   note: ''
-  mp_cost: 0
+  mp_cost: 21
   speed: 0
   id: 49
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 1
+    value1: 0.05
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 28
+    value1: 0.4
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
-    variance: 20
+    type: 5
+    element_id: 9
+    formula: (a.mat * 5) * ( 1 / ( 2 ** ( b.mdf / 100 ) ) )
+    variance: 25
     critical: false
   success_rate: 100
-  hit_type: 0
-  stype_id: 1
+  hit_type: 2
+  stype_id: 2
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
