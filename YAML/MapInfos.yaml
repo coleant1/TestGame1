@@ -93,7 +93,7 @@
 16: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: CosmicTemple
-  expanded: false
+  expanded: true
   order: 5
   scroll_y: 208
   parent_id: 0
