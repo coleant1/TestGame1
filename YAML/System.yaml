@@ -11,7 +11,7 @@ elements:
 - Soil
 - Nether
 - Ranged
-start_y: 73
+start_y: 8
 airship: !ruby/object:RPG::System::Vehicle
   start_y: 0
   bgm: !ruby/object:RPG::BGM {name: Airship, volume: 100, pitch: 100}
@@ -48,7 +48,7 @@ test_battlers:
   - 6
   - 0
 _: 7829367
-edit_map_id: 4
+edit_map_id: 8
 battle_end_me: !ruby/object:RPG::ME
   name: Victory1
   pitch: 100
@@ -57,7 +57,7 @@ party_members:
 - 3
 - 1
 - 2
-start_x: 19
+start_x: 8
 ship: !ruby/object:RPG::System::Vehicle
   start_y: 0
   bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}
@@ -194,8 +194,8 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: Battle1, volume: 100, pitch: 100}
-version_id: 44663264
-start_map_id: 4
+version_id: 54140667
+start_map_id: 8
 battler_name: Assassin
 magic_number: 77696160
 switches:

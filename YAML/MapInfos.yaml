@@ -11,7 +11,7 @@
   name: FlameTempleOutsideInner
   expanded: false
   order: 43
-  scroll_y: 882
+  scroll_y: 320
   parent_id: 4
 6: !ruby/object:RPG::MapInfo
   scroll_x: 800
