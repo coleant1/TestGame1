@@ -1,5 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Custom for RPG Maker VX Ace
 *.yaml text eol=crlf
 
 # Custom for Visual Studio
