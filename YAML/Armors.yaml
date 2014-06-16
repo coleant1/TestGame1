@@ -95,7 +95,7 @@
 - !ruby/object:RPG::Armor
   description: The simplest of robes.
   name: Cotton Robe
-  icon_index: 0
+  icon_index: 443
   price: 10
   note: ''
   id: 5
