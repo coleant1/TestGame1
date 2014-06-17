@@ -2,9 +2,9 @@
 - 
 - !ruby/object:RPG::State
   message2: ' is slain!'
-  name: Death
+  name: Unconscious
   priority: 100
-  icon_index: 17
+  icon_index: 22
   message1: ' has fallen!'
   message4: ' revives!'
   restriction: 4

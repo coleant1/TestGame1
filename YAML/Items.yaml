@@ -6,7 +6,7 @@
   consumable: true
   occasion: 0
   icon_index: 192
-  price: 15
+  price: 10
   scope: 7
   animation_id: 37
   note: ''
@@ -32,11 +32,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Item
   description: Recovers 50 HP.
-  name: Hi-Potion
+  name: Greater Potion
   consumable: true
   occasion: 0
   icon_index: 192
-  price: 150
+  price: 100
   scope: 7
   animation_id: 37
   note: ''
@@ -61,12 +61,12 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Recovers all HP.
-  name: Full Potion
+  description: Recovers 100 HP.
+  name: Mega Potion
   consumable: true
   occasion: 0
   icon_index: 192
-  price: 450
+  price: 400
   scope: 7
   animation_id: 37
   note: ''
@@ -77,8 +77,8 @@
   - !ruby/object:RPG::UsableItem::Effect
     code: 11
     data_id: 0
-    value1: 1.0
-    value2: 0.0
+    value1: 0.0
+    value2: 100.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -121,12 +121,12 @@
   repeats: 1
   tp_gain: 0
 - !ruby/object:RPG::Item
-  description: Recovers ally from death.
-  name: Stimulant
+  description: Recover an ally who has fallen unconscious.
+  name: Smelling Salts
   consumable: true
   occasion: 0
   icon_index: 194
-  price: 500
+  price: 300
   scope: 9
   animation_id: 42
   note: ''
