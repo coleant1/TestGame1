@@ -1437,15 +1437,11 @@
 - !ruby/object:RPG::Armor
   description: ''
   name: Aether Shield
-  icon_index: 0
+  icon_index: 582
   price: 0
   note: ''
   id: 63
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -1479,7 +1475,7 @@
 - !ruby/object:RPG::Armor
   description: ''
   name: Aether Robe
-  icon_index: 0
+  icon_index: 534
   price: 0
   note: ''
   id: 65
