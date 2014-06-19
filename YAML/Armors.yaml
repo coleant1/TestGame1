@@ -1,9 +1,9 @@
 ---
 - 
 - !ruby/object:RPG::Armor
-  description: ''
+  description: A set of small metal rings linked into a strong mesh.
   name: Chain Mail
-  icon_index: 0
+  icon_index: 170
   price: 15
   note: ''
   id: 1
@@ -116,9 +116,9 @@
   etype_id: 3
   atype_id: 2
 - !ruby/object:RPG::Armor
-  description: ''
-  name: Chain Shirt
-  icon_index: 0
+  description: Equivalent to a chain shirt.
+  name: Breastplate
+  icon_index: 432
   price: 0
   note: ''
   id: 6
@@ -462,16 +462,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: Cosmic
-  icon_index: 0
+  name: Cosmic Sigil
+  icon_index: 190
   price: 0
   note: ''
   id: 21
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -485,16 +481,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Cosmic Mail
+  icon_index: 546
   price: 0
   note: ''
   id: 22
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -508,16 +500,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Cosmic Shield
+  icon_index: 578
   price: 0
   note: ''
   id: 23
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -531,16 +519,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Cosmic Helm
+  icon_index: 594
   price: 0
   note: ''
   id: 24
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -554,16 +538,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Cosmic Robe
+  icon_index: 452
   price: 0
   note: ''
   id: 25
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -577,16 +557,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Cosmic Breastplate
+  icon_index: 562
   price: 0
   note: ''
   id: 26
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -921,12 +897,31 @@
   etype_id: 1
   atype_id: 0
 - !ruby/object:RPG::Armor
-  description: Chain mail infused with the power of the Nether.
-  name: Nether Chain Mail
-  icon_index: 0
+  description: <stub, needs coded>
+  name: Nether Sigil
+  icon_index: 191
   price: 0
   note: ''
   id: 41
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: Chain mail infused with the power of the Nether.
+  name: Nether Mail
+  icon_index: 545
+  price: 0
+  note: ''
+  id: 42
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
@@ -960,51 +955,54 @@
   etype_id: 3
   atype_id: 4
 - !ruby/object:RPG::Armor
-  description: A chain shirt infused with the power of the Nether.
-  name: Nether Chain Shirt
-  icon_index: 0
+  description: <stub, needs coded>
+  name: Nether Shield
+  icon_index: 577
   price: 0
   note: ''
-  id: 42
+  id: 43
+  features: []
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
+- !ruby/object:RPG::Armor
+  description: <stub, needs coded>
+  name: Nether Helm
+  icon_index: 593
+  price: 0
+  note: ''
+  id: 44
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
     data_id: 1
     value: 0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 6
-    value: 0.5
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 3
-    value: 0.5
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 2
-    value: 1.5
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 11
-    data_id: 7
-    value: 1.5
   params:
-  - 40
-  - 10
-  - 0
-  - 9
-  - 0
-  - 5
   - 0
   - 0
-  etype_id: 3
-  atype_id: 3
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 0
 - !ruby/object:RPG::Armor
   description: A robe infused with the power of the Nether.
   name: Nether Robe
-  icon_index: 0
+  icon_index: 456
   price: 0
   note: ''
-  id: 43
+  id: 45
   features:
   - !ruby/object:RPG::BaseItem::Feature
     code: 22
@@ -1038,55 +1036,9 @@
   etype_id: 3
   atype_id: 2
 - !ruby/object:RPG::Armor
-  description: ''
-  name: ''
-  icon_index: 0
-  price: 0
-  note: ''
-  id: 44
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
-  params:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  etype_id: 1
-  atype_id: 0
-- !ruby/object:RPG::Armor
-  description: ''
-  name: ''
-  icon_index: 0
-  price: 0
-  note: ''
-  id: 45
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
-  params:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  etype_id: 1
-  atype_id: 0
-- !ruby/object:RPG::Armor
-  description: ''
-  name: ''
-  icon_index: 0
+  description: A breastplate infused with the power of the Nether.
+  name: Nether Breastplate
+  icon_index: 561
   price: 0
   note: ''
   id: 46
@@ -1095,17 +1047,33 @@
     code: 22
     data_id: 1
     value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 6
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 2
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 7
+    value: 1.5
   params:
+  - 40
+  - 10
+  - 0
+  - 9
+  - 0
+  - 5
   - 0
   - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  etype_id: 1
-  atype_id: 0
+  etype_id: 3
+  atype_id: 3
 - !ruby/object:RPG::Armor
   description: ''
   name: ''
@@ -1430,16 +1398,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: Aether
-  icon_index: 0
+  name: Aether Sigil
+  icon_index: 186
   price: 0
   note: ''
   id: 61
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -1453,16 +1417,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Aether Mail
+  icon_index: 550
   price: 0
   note: ''
   id: 62
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -1476,7 +1436,7 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
+  name: Aether Shield
   icon_index: 0
   price: 0
   note: ''
@@ -1499,16 +1459,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Aether Helm
+  icon_index: 598
   price: 0
   note: ''
   id: 64
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -1522,16 +1478,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
+  name: Aether Robe
   icon_index: 0
   price: 0
   note: ''
   id: 65
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -1545,16 +1497,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Aether Breastplate
+  icon_index: 566
   price: 0
   note: ''
   id: 66
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -1891,7 +1839,7 @@
 - !ruby/object:RPG::Armor
   description: ''
   name: Air Sigil
-  icon_index: 0
+  icon_index: 184
   price: 0
   note: ''
   id: 81
@@ -1921,16 +1869,12 @@
   atype_id: 1
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Air Mail
+  icon_index: 549
   price: 0
   note: ''
   id: 82
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -1944,8 +1888,8 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Air Shield
+  icon_index: 581
   price: 0
   note: ''
   id: 83
@@ -1967,16 +1911,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Air Helm
+  icon_index: 597
   price: 0
   note: ''
   id: 84
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -1990,8 +1930,8 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Air Robe
+  icon_index: 451
   price: 0
   note: ''
   id: 85
@@ -2013,16 +1953,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Air Breastplate
+  icon_index: 565
   price: 0
   note: ''
   id: 86
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -2359,7 +2295,7 @@
 - !ruby/object:RPG::Armor
   description: A basic sigil of Flame, it brims with power.
   name: Flame Sigil
-  icon_index: 0
+  icon_index: 187
   price: 0
   note: ''
   id: 101
@@ -2406,7 +2342,7 @@
 - !ruby/object:RPG::Armor
   description: Chain mail infused with the power of Flame.
   name: Flame Mail
-  icon_index: 0
+  icon_index: 544
   price: 0
   note: ''
   id: 102
@@ -2457,7 +2393,7 @@
 - !ruby/object:RPG::Armor
   description: A simple shield infused with the power of flame.
   name: Flame Shield
-  icon_index: 0
+  icon_index: 576
   price: 5
   note: ''
   id: 103
@@ -2508,7 +2444,7 @@
 - !ruby/object:RPG::Armor
   description: A simple helm infused with the power of flame.
   name: Flame Helm
-  icon_index: 0
+  icon_index: 592
   price: 20
   note: ''
   id: 104
@@ -2559,7 +2495,7 @@
 - !ruby/object:RPG::Armor
   description: A simple robe infused with the power of Flame.
   name: Flame Robe
-  icon_index: 0
+  icon_index: 455
   price: 10
   note: ''
   id: 105
@@ -2612,9 +2548,9 @@
   etype_id: 3
   atype_id: 2
 - !ruby/object:RPG::Armor
-  description: A simple chain shirt infused with the power of Flame.
-  name: Flame Shirt
-  icon_index: 0
+  description: A simple breastplate infused with the power of Flame.
+  name: Flame Breastplate
+  icon_index: 560
   price: 0
   note: ''
   id: 106
@@ -2990,16 +2926,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: Mist
-  icon_index: 0
+  name: Mist Sigil
+  icon_index: 188
   price: 0
   note: ''
   id: 121
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -3013,16 +2945,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Mist Mail
+  icon_index: 547
   price: 0
   note: ''
   id: 122
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -3036,16 +2964,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Mist Shield
+  icon_index: 579
   price: 0
   note: ''
   id: 123
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -3059,16 +2983,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Mist Helm
+  icon_index: 595
   price: 0
   note: ''
   id: 124
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -3082,8 +3002,8 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Mist Robe
+  icon_index: 447
   price: 0
   note: ''
   id: 125
@@ -3105,16 +3025,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Mist Breastplate
+  icon_index: 563
   price: 0
   note: ''
   id: 126
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -3450,16 +3366,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: Soil
-  icon_index: 0
+  name: Soil Sigil
+  icon_index: 189
   price: 0
   note: ''
   id: 141
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -3473,16 +3385,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Soil Mail
+  icon_index: 548
   price: 0
   note: ''
   id: 142
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -3496,16 +3404,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Soil Shield
+  icon_index: 580
   price: 0
   note: ''
   id: 143
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -3519,16 +3423,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Soil Helm
+  icon_index: 596
   price: 0
   note: ''
   id: 144
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -3542,16 +3442,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Soil Robe
+  icon_index: 444
   price: 0
   note: ''
   id: 145
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0
@@ -3565,16 +3461,12 @@
   atype_id: 0
 - !ruby/object:RPG::Armor
   description: ''
-  name: ''
-  icon_index: 0
+  name: Soil Breastplate
+  icon_index: 564
   price: 0
   note: ''
   id: 146
-  features:
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 1
-    value: 0
+  features: []
   params:
   - 0
   - 0

@@ -3,7 +3,7 @@
 - !ruby/object:RPG::Weapon
   description: "A simple blade.\r\nCrit +8%"
   name: Short Sword
-  icon_index: 0
+  icon_index: 386
   price: 10
   animation_id: 7
   note: ''
@@ -87,7 +87,7 @@
 - !ruby/object:RPG::Weapon
   description: "A large sword.\r\nCrit +8%"
   name: Claymore
-  icon_index: 0
+  icon_index: 398
   price: 20
   animation_id: 0
   note: ''
@@ -119,7 +119,7 @@
 - !ruby/object:RPG::Weapon
   description: A simple wooden staff.
   name: Staff
-  icon_index: 0
+  icon_index: 152
   price: 20
   animation_id: 1
   note: ''
